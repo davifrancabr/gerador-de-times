@@ -7,7 +7,7 @@ public class Sorteio
 {
     static Random _random = new Random();//Modudo do random, configurado para misturar os times
 
-    public static void Shuffle<T>(T[] Array)
+    public static void Shuffle <T> (T[] Array)
     {
         var random = _random;
         for(int i = Array.Length; i > 1; i--)
